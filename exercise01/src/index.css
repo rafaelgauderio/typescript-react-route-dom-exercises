@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
+
+:root {
+
+  font-family: system-ui, Helvetica, Arial, sans-serif; 
+  
+  --color-bg-header: green;
+  --color-bg-button: darkcyan;
+  --color-bg-body-primary: #eaeaea;
+  --color-bg-body-secondary: white;
+
+  --color-font-primary: #8e8e8e;
+  --color-font-secondary: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+body {
+  background-color: var(--color-bg-body-primary);
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: left !important;
+  font-size: 25px;
+}
+
+h2 {
+  text-align: left;
+  font-size: 20px;
+}
+
+.margin-botton {
+  margin-bottom: 30px;
+}
+
+.margin-top {
+  margin-top: 30px;
+}
+
+/* fazer com que o item child não ocupe toda a largura */
+.display-flex {
+  display: flex;
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: unset;
+}
+
