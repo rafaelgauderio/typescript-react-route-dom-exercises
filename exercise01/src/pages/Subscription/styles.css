@@ -1,0 +1,6 @@
+.subscription-title {
+    margin: 20px 0;
+    font-size: 34px;
+    text-align: center;
+    color: var(--color-font-primary);
+}
