@@ -3,7 +3,7 @@ import './App.css'
 import Home from './pages/Home'
 import Subscription from './pages/Subscription'
 import HomeBody from './pages/Home/HomeBody'
-import Promotion from './pages/Promotion'
+import Promotion from './pages/Home/Promotion'
 
 function App() {
 

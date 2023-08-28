@@ -12,3 +12,24 @@
     font-size: 22px !important;
 }
 
+.header-content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header-navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-navbar ul {
+    display: flex;
+}
+
+.header-navbar li {
+    list-style-type: none;  
+    margin-left: 20px;  
+}
+
