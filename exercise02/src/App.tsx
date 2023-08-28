@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 import './App.css'
 import Home from './pages/Home'
 import Subscription from './pages/Subscription'
@@ -12,7 +12,9 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home></Home>}>
-            <Route index element={<HomeBody></HomeBody>}></Route>
+            {/* Nagigate component para redirecionar para home*/}
+            <Route index element={<Navigate to="/home"></Navigate>}></Route>
+            <Route path="/home" element={<HomeBody></HomeBody>}></Route>            
             <Route path="/promotion" element={<Promotion></Promotion>}></Route>
             <Route path="/subscription" element={<Subscription></Subscription>}> </Route>
           </Route>

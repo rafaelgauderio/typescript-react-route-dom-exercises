@@ -31,5 +31,11 @@
 .header-navbar li {
     list-style-type: none;  
     margin-left: 20px;  
+    font-weight: 400 !important;
+}
+
+.menu-item-active li {    
+    font-weight: 700 !important;
+    color: var(--color-bg-nav);
 }
 
